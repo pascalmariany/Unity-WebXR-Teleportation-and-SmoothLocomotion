@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: f8e0dd551ec1a1745a043bde4587862d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: SM_ecran_zone2
+    100002: SM_sofa_zone2
+    100004: SM_table_zone2
+    100006: //RootNode
+    100008: pouf_1
+    100010: pouf_2
+    100012: SM_lamp_zone2
+    100014: SM_wire1_zone2
+    100016: SM_pouf_1
+    100018: SM_pouf_2
+    100020: SM_ecran_zone2.001
+    100022: SM_carpet_zone2
+    100024: SM_wall2_zone2
+    100026: SM_wall_zone2
+    400000: SM_ecran_zone2
+    400002: SM_sofa_zone2
+    400004: SM_table_zone2
+    400006: //RootNode
+    400008: pouf_1
+    400010: pouf_2
+    400012: SM_lamp_zone2
+    400014: SM_wire1_zone2
+    400016: SM_pouf_1
+    400018: SM_pouf_2
+    400020: SM_ecran_zone2.001
+    400022: SM_carpet_zone2
+    400024: SM_wall2_zone2
+    400026: SM_wall_zone2
+    2100000: M_dark
+    2100002: M_chrome
+    2100004: M_white
+    2100006: M_glass
+    2100008: M_sofa
+    2100010: M_wall
+    2100012: M_light
+    2100014: M_ecran_1
+    2300000: SM_ecran_zone2
+    2300002: SM_sofa_zone2
+    2300004: SM_table_zone2
+    2300006: pouf_1
+    2300008: pouf_2
+    2300010: SM_lamp_zone2
+    2300012: SM_wire1_zone2
+    2300014: SM_pouf_1
+    2300016: SM_pouf_2
+    2300018: SM_ecran_zone2.001
+    2300020: SM_carpet_zone2
+    2300022: SM_wall2_zone2
+    2300024: SM_wall_zone2
+    3300000: SM_ecran_zone2
+    3300002: SM_sofa_zone2
+    3300004: SM_table_zone2
+    3300006: pouf_1
+    3300008: pouf_2
+    3300010: SM_lamp_zone2
+    3300012: SM_wire1_zone2
+    3300014: SM_pouf_1
+    3300016: SM_pouf_2
+    3300018: SM_ecran_zone2.001
+    3300020: SM_carpet_zone2
+    3300022: SM_wall2_zone2
+    3300024: SM_wall_zone2
+    4300000: SM_table_zone2
+    4300002: SM_sofa_zone2
+    4300004: SM_ecran_zone2
+    4300006: pouf_1
+    4300008: pouf_2
+    4300010: SM_wire1_zone2
+    4300012: SM_lamp_zone2
+    4300014: SM_pouf_1
+    4300016: SM_pouf_2
+    4300018: SM_ecran_zone2.001
+    4300020: SM_carpet_zone2
+    4300022: SM_wall2_zone2
+    4300024: SM_wall_zone2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_black
+    second: {fileID: 2100000, guid: 9a9ec34c258aa7442b3b68cd145ba4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_carpet
+    second: {fileID: 2100000, guid: 3fddbf612fe81954a8d0946c52271ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_carpet_borders
+    second: {fileID: 2100000, guid: 2c5ecce09caf14f4d9c3977261ea5f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_chrome
+    second: {fileID: 2100000, guid: 8813996db2fa5324886e69df63aaf6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_dark
+    second: {fileID: 2100000, guid: 71f60a692e46cfa4faf13603ff433456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ecran_1
+    second: {fileID: 2100000, guid: 1eeb9675b2e885f448e9fda6ba15263d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_ecran_5
+    second: {fileID: 2100000, guid: 00e4b8adab5b5164aabaaa4161b91a91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_glass
+    second: {fileID: 2100000, guid: b077d753d3a5a3e4f9d376fd4380835e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_light
+    second: {fileID: 2100000, guid: 1d4334e6adb395045831f3b578b0d71f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_sofa
+    second: {fileID: 2100000, guid: f657d72733bc285419beb4a64bd383eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_wall
+    second: {fileID: 2100000, guid: 7a10cbe703aad634b90ac361c3152c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_white
+    second: {fileID: 2100000, guid: ad3b344751163de4b9fa923fc3cdfe4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pouf
+    second: {fileID: 2100000, guid: 2819a2b070acb4041bcd095a952a7e3d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

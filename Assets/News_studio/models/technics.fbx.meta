@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: da0a14ee2553e684fb12fc084ae71d33
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: SM_prompter
+    100002: SM_Tripod_1
+    100004: //RootNode
+    100006: SM_Camera
+    100008: SM_Tripod_2
+    100010: SM_spotlight_1
+    100012: SM_spotlight_2
+    100014: SM_spotlight_3
+    400000: SM_prompter
+    400002: SM_Tripod_1
+    400004: //RootNode
+    400006: SM_Camera
+    400008: SM_Tripod_2
+    400010: SM_spotlight_1
+    400012: SM_spotlight_2
+    400014: SM_spotlight_3
+    2100000: M_dark
+    2100002: M_chrome
+    2100004: M_dark_chrome
+    2100006: M_red
+    2100008: M_prompter_ecran
+    2100010: M_camera_ecran
+    2100012: M_glass
+    2300000: SM_prompter
+    2300002: SM_Tripod_1
+    2300004: SM_Camera
+    2300006: SM_Tripod_2
+    2300008: SM_spotlight_1
+    2300010: SM_spotlight_2
+    2300012: SM_spotlight_3
+    3300000: SM_prompter
+    3300002: SM_Tripod_1
+    3300004: SM_Camera
+    3300006: SM_Tripod_2
+    3300008: SM_spotlight_1
+    3300010: SM_spotlight_2
+    3300012: SM_spotlight_3
+    4300000: SM_prompter
+    4300002: SM_Tripod_1
+    4300004: SM_Tripod_2
+    4300006: SM_Camera
+    4300008: SM_spotlight_3
+    4300010: SM_spotlight_2
+    4300012: SM_spotlight_1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_black
+    second: {fileID: 2100000, guid: 9a9ec34c258aa7442b3b68cd145ba4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_camera_ecran
+    second: {fileID: 2100000, guid: b30cb2a82ae8a804c9862b318e802721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_chrome
+    second: {fileID: 2100000, guid: 8813996db2fa5324886e69df63aaf6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_dark
+    second: {fileID: 2100000, guid: 71f60a692e46cfa4faf13603ff433456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_dark_chrome
+    second: {fileID: 2100000, guid: ac492e90e1b8e8b4e97f58da498cf11d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_light
+    second: {fileID: 2100000, guid: 1d4334e6adb395045831f3b578b0d71f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_prompter_ecran
+    second: {fileID: 2100000, guid: ae4d3cf2f5d4efb4682c4a819647a1e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_red
+    second: {fileID: 2100000, guid: 91b4493131ff4f04684d2cc64fac99be, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
