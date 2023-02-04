@@ -22,7 +22,7 @@
       }
     },
     "com.de-panther.webxr": {
-      "version": "0.15.0-preview",
+      "version": "0.16.0-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -41,11 +41,11 @@
       "url": "https://package.openupm.com"
     },
     "com.de-panther.webxr-interactions": {
-      "version": "0.15.0-preview",
+      "version": "0.16.2-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.de-panther.webxr": "0.15.0-preview"
+        "com.de-panther.webxr": "0.16.0-preview"
       },
       "url": "https://package.openupm.com"
     },
@@ -66,7 +66,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.17",
+      "version": "3.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
