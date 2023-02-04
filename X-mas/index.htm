@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Digitale Techniek en Media - Hogeschool Utrecht</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+ <!-- CSS Reset -->
+ <style type="text/css">
+  /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+  html,  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  /* What it does: Stops email clients resizing small text. */
+  * {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  /* What it does: Forces Outlook.com to display emails full width. */
+  .ExternalClass {
+    width: 100%;
+  }
+  /* What is does: Centers email on Android 4.4 */
+  div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+  }
+  /* What it does: Stops Outlook from adding extra spacing to tables. */
+  table,  td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+  }
+  /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+  table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+  }
+  table table table {
+    table-layout: auto;
+  }
+  /* What it does: Uses a better rendering method when resizing images in IE. */
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  /* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+  .yshortcuts a {
+    border-bottom: none !important;
+  }
+  /* What it does: Another work-around for iOS meddling in triggered links. */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+  }
+  </style>
+  
+      <!-- Progressive Enhancements -->
+      <style type="text/css">
+          
+          /* What it does: Hover styles for buttons */
+          .button-td,
+          .button-a {
+              transition: all 100ms ease-in;
+          }
+          .button-td:hover,
+          .button-a:hover {
+              background: #555555 !important;
+              border-color: #555555 !important;
+          }
+  
+          /* Media Queries */
+          @media screen and (max-width: 600px) {
+  
+              .email-container {
+                  width: 100% !important;
+              }
+  
+              /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+              .fluid,
+              .fluid-centered {
+                  max-width: 100% !important;
+                  height: auto !important;
+                  margin-left: auto !important;
+                  margin-right: auto !important;
+              }
+              /* And center justify these ones. */
+              .fluid-centered {
+                  margin-left: auto !important;
+                  margin-right: auto !important;
+              }
+  
+              /* What it does: Forces table cells into full-width rows. */
+              .stack-column,
+              .stack-column-center {
+                  display: block !important;
+                  width: 100% !important;
+                  max-width: 100% !important;
+                  direction: ltr !important;
+              }
+              /* And center justify these ones. */
+              .stack-column-center {
+                  text-align: center !important;
+              }
+          
+              /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+              .center-on-narrow {
+                  text-align: center !important;
+                  display: block !important;
+                  margin-left: auto !important;
+                  margin-right: auto !important;
+                  float: none !important;
+              }
+              table.center-on-narrow {
+                  display: inline-block !important;
+              }
+                  
+          }
+  
+      </style>
+
+  </head>
+  <table align="center" width="600" class="email-container">
+    <tr>
+        <td style="padding: 20px 0; text-align: center"><br><br><br><a href="https://www.hu.nl/voltijd-opleidingen/ad-digitale-techniek-en-media"><img src="images/Image_200x50.png" width="200" height="50" alt="alt_text" border="0"></a></td>
+      </tr>
+  </table>
+  <body bgcolor="#0192D3" width="100%" style="margin: 0;" yahoo="yahoo">
+  
+            
+    <div id="unity-container">
+      <div id="unity-canvas-container">
+        <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
+      </div>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+     
+      <div id="unity-footer">
+        
+        <button id="entervr" value="Enter VR" disabled>VR</button>
+        <button id="enterar" value="Enter AR" disabled>AR</button>
+        
+      </div>
+    </div>
+    <script>
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/X-mas.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/X-mas.data",
+        frameworkUrl: buildUrl + "/X-mas.framework.js",
+        codeUrl: buildUrl + "/X-mas.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "VR-Teleporter",
+        productVersion: "1.0",
+      };
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var canvasContainer = document.querySelector("#unity-canvas-container");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var unityInstance = null;
+      
+
+      canvasContainer.style.width = "700px";
+      canvasContainer.style.height = "400px";
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((instance) => {
+          unityInstance = instance;
+          loadingBar.style.display = "none";
+          if (fullscreenButton)
+          {
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
+          }
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+
+      let enterARButton = document.getElementById('enterar');
+      let enterVRButton = document.getElementById('entervr');
+
+      document.addEventListener('onARSupportedCheck', function (event) {
+        enterARButton.disabled = !event.detail.supported;
+      }, false);
+      document.addEventListener('onVRSupportedCheck', function (event) {
+        enterVRButton.disabled = !event.detail.supported;
+      }, false);
+
+      enterARButton.addEventListener('click', function (event) {
+        unityInstance.Module.WebXR.toggleAR();
+      }, false);
+      enterVRButton.addEventListener('click', function (event) {
+        unityInstance.Module.WebXR.toggleVR();
+      }, false);
+    </script>
+  </body>
+</html>

@@ -6,10 +6,16 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 550706525c505c0f555d5a20447b5e4444161b2b282b25657a2d1c60e7b46060
+      value: 5b04075e55515d035959082047210844174f4d7a7e7072647b784e67bbe3676e
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5b04075e55515d035959082047210844174f4d7a7e7072647b784e67bbe3676e
+      value: 0753505752560a5f080b5e7148750e44154f1a7b7a7a2232792c4c67b5b2666b
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0607020501060f08085f0a704477074445164b7f287c77352c2d4565b1b5373a
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 550706525c505c0f555d5a20447b5e4444161b2b282b25657a2d1c60e7b46060
       flags: 0
     RecentlyUsedScenePath-0:
       value: 22424703114646723f21220a35027b503116152f3f67153328271820add73b2aeee309dae4323033354cfa320d2a18
@@ -31,6 +37,9 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646723f21220a35027b503116152f3f67153328271820adc83b35e7d435ece93f7129370bfb25
+      flags: 0
+    glTF.saveFilePath:
+      value: 200b683316501b48311e0d31132263341304133e2338
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

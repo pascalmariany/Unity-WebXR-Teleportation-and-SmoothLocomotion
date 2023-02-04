@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
     guid: 66249e54836b48a42acadcc57da3e448
+  - enabled: 1
+    path: Assets/Off Axis Studios/Polyworks/Demos/_ChristmasDemo.unity
+    guid: dbd17ccdee238614c8b162db4e147223
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9e4ffd011502cc04cba6f4d011aa0209,
       type: 2}
